@@ -1,0 +1,518 @@
+html,
+body {
+    height: 100%;
+    background-color: #212529;
+    overflow-x: hidden;
+}
+
+.row {
+    margin-top: 2em;
+    margin-bottom: -2em;
+}
+
+#cover {
+    background: #fff url('img/library.jpg');
+    background-repeat: repeat;
+    background-blend-mode: darken;
+    background-color: #525752;
+    height: 92%;
+    color: white;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption {
+    width: 100%;
+    margin-top: 15px;
+}
+
+#cnt {
+    background-color: white;
+    color: rgb(52, 58, 64);
+    width: 18rem;
+    box-shadow: 2px 5px 9px 0px rgba(0, 0, 0, 0.74);
+}
+
+#cnt-menu {
+    background-color: white;
+    color: rgb(52, 58, 64);
+    width: 40rem;
+    box-shadow: 2px 5px 9px 0px rgba(0, 0, 0, 0.74);
+    padding-left: 20px;
+}
+
+#cnt-lesson {
+    background-color: white;
+    color: rgb(52, 58, 64);
+    width: 800px;
+    height: auto;
+    box-shadow: 2px 5px 9px 0px rgba(0, 0, 0, 0.74);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 60px;
+}
+
+#cnt-enviarBox {
+    background-color: white;
+    color: rgb(52, 58, 64);
+    width: 400px;
+    height: 80px;
+    box-shadow: 2px 5px 9px 0px rgba(0, 0, 0, 0.74);
+    margin-bottom: 60px;
+}
+
+#cnt-about {
+    background-color: white;
+    color: rgb(52, 58, 64);
+    width: 40rem;
+    height: auto;
+    box-shadow: 2px 5px 9px 0px rgba(0, 0, 0, 0.74);
+    padding-left: 20px;
+}
+
+#center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 70em;
+    background-color: white;
+    height: 40em;
+    border-radius: 2px;
+    padding: 5em;
+    box-shadow: 2px 5px 9px 0px rgba(0, 0, 0, 0.74);
+}
+
+#navbaar {
+    margin: 1em;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 96%;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 2.2em;
+}
+
+#points {
+    position: relative;
+    display: flex;
+    margin-right: 2em;
+    color: white;
+    width: 120px;
+    height: 2.5em;
+    border-radius: .25rem;
+    padding-left: 20px;
+}
+
+#op {
+    border-color: white;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
+
+#op2 {
+    border-color: white;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    margin-right: 10px;
+}
+
+#logo {
+    background-image: url(img/horizontal_on_white_by_logaster.png);
+    width: 330px;
+    height: 150px;
+    margin: 2em;
+    margin-left: 32%;
+    display: flex;
+    align-self: center;
+    border-radius: 10em;
+}
+
+#texto {
+    width: 80em;
+    height: auto;
+    padding: 2em;
+    color: black;
+    background-color: white;
+    border-radius: 0.5em;
+    border: 2px solid white;
+}
+
+#questarea {
+    margin-top: 10px;
+    width: 80em;
+    height: auto;
+    padding: 2em;
+    background-color: transparent;
+    border-radius: 0.5em;
+    border: 2px solid white;
+}
+
+#alternativa {
+    color: #212529;
+    font-size: 20px;
+    padding: 1em;
+    margin: 1em;
+    width: 50em;
+    height: 4em;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 0.5em;
+}
+
+#alternativa:hover {
+    transition: 0.5s;
+    border-color: #212529;
+    box-shadow: 0 0 12px rgba(0, 0, 255, 0.6);
+    cursor: pointer;
+}
+
+#nav-titles {
+    color: white;
+    font-size: 20px;
+    float: right;
+}
+
+#home {
+    width: 800px;
+    border: none;
+    border-color: none;
+}
+
+#alert {
+    width: 640px;
+    margin-left: -20px;
+    margin-top: -60px;
+    position: absolute;
+}
+
+#img-home {
+    padding-top: 15px;
+    height: 200px;
+}
+
+#img-login {
+    padding-left: 15px;
+    padding-top: 20px;
+    height: 150px;
+    width: auto;
+}
+
+#img-about {
+    padding-left: 15px;
+    padding-top: 20px;
+    height: 150px;
+    width: auto;
+}
+
+#img-contact {
+    padding-left: 15px;
+    padding-top: 20px;
+    height: 150px;
+    width: auto;
+}
+
+#img-lesson {
+    padding-top: 20px;
+    height: 180px;
+    width: auto;
+}
+
+#img-perfil {
+    padding-left: 15px;
+    padding-top: 20px;
+    height: 150px;
+    width: auto;
+}
+
+#img-native {
+    padding-left: 15px;
+    padding-top: 20px;
+    height: 150px;
+    width: auto;
+}
+
+#img-ajustes {
+    margin-top: -35px;
+    height: 120px;
+    width: auto;
+}
+
+#ajustes {
+    margin-left: -55px;
+    margin-top: -10px;
+}
+
+.row {
+    margin-bottom: 5px;
+    padding: 0px;
+}
+
+#cnt-home {
+    background-color: white;
+    color: rgb(52, 58, 64);
+    width: 1000px;
+    margin-left: 54px;
+    height: auto;
+    margin-top: 110px;
+    margin-bottom: 50px;
+    box-shadow: 2px 5px 9px 0px rgba(0, 0, 0, 0.74);
+}
+
+#home-card {
+    margin-top: -25px;
+    margin-left: 15px;
+    width: auto;
+    border: none;
+}
+
+.home-img {
+    height: 450px;
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+}
+
+.home-title {
+    height: 450px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.616);
+    z-index: 10;
+    color: white;
+    margin: 0;
+    padding-left: 210px;
+    padding-top: 120px;
+}
+
+.text-home-title {
+    font-size: 60px;
+}
+
+.text-home-subtitle {
+    font-size: 18px;
+}
+
+.img-title {
+    height: 200px;
+}
+
+#cnt-ajustes {
+    background-color: white;
+    color: rgb(52, 58, 64);
+    width: 530px;
+    height: auto;
+    box-shadow: 2px 5px 9px 0px rgba(0, 0, 0, 0.74);
+}
+
+#alert-ajustes {
+    width: 530px;
+    margin-left: -15px;
+    margin-top: -60px;
+    position: absolute;
+}
+
+#myTabContent {
+    background-color: white;
+    height: auto;
+    height: auto;
+    padding: 30px;
+}
+
+#myTab {
+    margin-top: 10px;
+}
+
+.carr {
+    height: 300px;
+    width: auto;
+}
+
+.colun {
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 10px;
+    width: auto;
+}
+
+.colunLesson {
+    margin-top: 55px;
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.login-bottom {
+    padding-bottom: 30px;
+}
+
+.top {
+    margin-top: -110px;
+}
+
+.top-cont {
+    margin-top: -80px;
+}
+
+.enviado {
+    margin-top: 72px;
+    margin-left: 0px;
+}
+
+.top-about {
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.title {
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.img-navbar {
+    border-radius: 5em;
+    width: auto;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.logo-home {
+    border-radius: 5em;
+    width: auto;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+#btnNav {
+    margin-left: 10px;
+}
+
+.points {
+    font-size: 20px;
+    color: white;
+    margin-top: 4px;
+}
+
+.bar {
+    font-size: 20px;
+    color: white;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.icon-coin {
+    width: 25px;
+    height: 21px;
+    margin-top: -5px;
+}
+
+#about {
+    margin-bottom: -30px;
+    padding: 0px;
+}
+
+.p {
+    text-indent: 3ch;
+    text-align: justify;
+}
+
+#vTitle {}
+
+#vContent {}
+
+#inputTextArea {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 168px;
+    resize: none;
+}
+
+#navContent {
+    margin-bottom: 50px;
+}
+
+
+/* not active */
+
+.nav-pills .pill .nav-link:not(.active) {
+    background-color: rgb(255, 255, 255);
+    color: rgb(67, 71, 74);
+}
+
+
+/* active (faded) */
+
+.nav-pills .pill .nav-link {
+    background-color: rgb(67, 71, 74);
+    color: white;
+}
+
+#cnt-profile {
+    background-color: white;
+    color: rgb(52, 58, 64);
+    width: 18rem;
+    margin-left: 61px;
+    margin-bottom: 50px;
+    float: left;
+    box-shadow: 2px 5px 9px 0px rgba(0, 0, 0, 0.74);
+}
+
+.card-title {
+    height: 50px;
+}
+
+#cnt-perfil {
+    background-color: white;
+    color: rgb(52, 58, 64);
+    width: 62rem;
+    height: auto;
+    padding-left: 120px;
+    box-shadow: 2px 5px 9px 0px rgba(0, 0, 0, 0.74);
+}
+
+.next {
+    margin-left: 85px;
+    width: 50px;
+}
+
+.prev {
+    margin-right: 110px;
+    width: 50px;
+}
+
+.perfil {
+    margin-right: -130px;
+    text-align: justify;
+}
+
+.navfooter {
+    background-color: #212529;
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-size: large;
+    text-align: center;
+    bottom: 10px;
+    position: relative;
+    margin-top: 0px;
+    margin-right: 0;
+    font-style: inherit;
+}
+
+.enviar {
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+input:disabled {
+    color: green;
+}
